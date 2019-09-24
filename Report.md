@@ -29,7 +29,7 @@ The replay buffer contains a collection of experience tuples with the state, act
 Also, experience replay improves learning through repetition. By doing multiple passes over the data, our agents have multiple opportunities to learn from a single experience tuple. This is particularly useful for state-action pairs that occur infrequently within the environment.
 
 
-Configurations:
+#### Configurations:
 * 2 hidden layers with 512 and 256 hidden units for both actor and critic
 * Replay batch size 512
 * Buffer size 1e6
